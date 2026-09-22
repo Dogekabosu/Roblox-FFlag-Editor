@@ -34,20 +34,10 @@
 namespace DogesExternal
 {
 
-  
 }
-
-
-    
-
-
-
-
 
 int main()
 {
-
-
     HANDLE  stupidshit = GetStdHandle(STD_OUTPUT_HANDLE);
 
     memory->find_process_id("RobloxPlayerBeta.exe");
@@ -81,19 +71,13 @@ int main()
     std::string one = "1";
     if (input == one)
     {
-
-
-
         memory->write<int>(FFlagOffsets::FFlags::DebugSkyGray + ilovebaseaddy, 1);
         memory->write<int>(FFlagOffsets::FFlags::DebugDrawBroadPhaseAABBs + ilovebaseaddy, 1);
-
-
-
+      
       Sleep(2000);
 
         SetConsoleTextAttribute(stupidshit, 14);
- 
-
+      
         SetConsoleTextAttribute(stupidshit, 7);
         return 0;
     }
