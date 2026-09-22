@@ -1,16 +1,8 @@
-
-
 #include <iostream>
 #include <cstdint>
 #include "src/memory/memory.h"
 #include "src/memory/Offsets.hpp"
-
 #include <string>
-
-namespace DogesExternal
-{
-
-}
 
 int main()
 {
